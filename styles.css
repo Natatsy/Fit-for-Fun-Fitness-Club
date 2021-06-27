@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/*
+     Author: Nataliya Tsytovych
+     Date: 06/26/2021
+     File: styles.css
+     Project: Fit for fun club project
+*/
+body {
+  background-color: #f8bd9e;
+}
+header {
+  position: sticky;
+  top: 0px;
+}
+/* Add a background color to the top navigation */
+.topnav {
+  background-color: #f8bd9e;
+  overflow: hidden;
+  padding-left: 500px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #216a61;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ffe8e2;
+  color: black;
+}
+
+/* Add an active class to highlight the current page */
+.topnav a:active {
+  background-color: #fbda57;
+  color: white;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+.fab {
+  color: rgba(0,0,225,.5);
+  font-size: 3em;
+  padding-right: 10px;
+}
+.socialmedia {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+h1 {
+  text-align: center;
+}
+div.first>p {
+  text-align:center;
+}
+div.first>img {
+  padding-left: 40px;
+}
+blockquote{
+  clear: both;
+  font-size: 2.5em;
+  font-family: sans-serif;
+  color: black;
+  quotes: "\201C" "\201D";
+  position: relative;
+  text-align: center;
+}
+blockquote::before{
+  content: open-quote;
+  font-size: 1em;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  position: absolute;
+  left:200px;
+  bottom: 0px;
+
+}
+blockquote::after{
+  content: close-quote;
+  font-size: 1em;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  position: absolute;
+  right: 210px;
+  bottom: 0px;
+}
+div.img {
+  padding-left: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+}
+footer {
+  text-align: center;
+}
+/* Styling classes*/
+table,th,td {
+  border: 1.5px  red solid; opacity: .75;
+}
+table {
+  margin-top: 50px;
+  margin-bottom: 100px;
+  margin-left: 175px;
+  margin-right: 100px;
+  width: 75%;
+  background-color: #dbe586;
+}
+th,td {
+  padding: 10px;
+  text-align: center;
+}
+/*Styling Form */
+h2 {
+  position: relative;
+  padding: 10px;
+  margin-left: 0px;
+  margin-right: 120px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container {
+  display: block;
+  margin: auto;
+  width: 85%;
+  background-color:#dbe586 ;
+  padding: 25px;
+  border-radius: 5px;
+  margin-bottom: 200px;
+}
+fieldset.info>label {
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  position: relative;
+}
+.submit {
+  width: initial;
+  position: initial;
+  background-color: #dae4e5;
+}

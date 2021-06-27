@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!--
+    Author: Nataliya Tsytovych
+    Date: 06/26/2021
+    Filename: info.html
+    Assignment: Fit for fun club project
+    -->
+    <link href="styles.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/026d99ff5d.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8">
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <header>
+      <nav class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="classes.html">Classes</a>
+      <a href="info.html">Register</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+      </a>
+      <div class="socialmedia">
+        <i class="fab fa-facebook-square"></i><i class="fab fa-twitter-square"></i>
+      </div>
+    </nav>
+  </header>
+  <h2>Become a member</h2>
+  <div class="container">
+    <form method="get" action="thankyou-1.html">
+      <fieldset class="info">
+        <legend>Contact Information</legend>
+        <label for="fname">
+          Name:
+          <input type="text" name="fname" id="fname" required placeholder="First Name"/>
+        </label>
+        <label for="Lname">
+          Last Name:
+          <input type="text" name="Lname" id="Lname" required placeholder="Last Name" />
+        </label>
+        <label for="email">
+          Email:
+          <input type="email" name="fname" id="email" required placeholder="Email"/>
+        </label>
+        <label for="phone">
+          Phone:
+          <input type="number" name="phone" id="phone" required placeholder="(916)585-9595./">
+        </label>
+      </fieldset>
+      <fieldset class="Contact">
+        <legend>Best Way To Reach You</legend>
+        <select id="contact" name="contact">
+          <option value="1">Phone Call</option>
+          <option value="2">Text Message</option>
+          <option value="3">Email</option>
+          <option value="4">Owl</option>
+        </select>
+      </fieldset>
+      <fieldset class="classes">
+        <legend>Choose Your Class</legend>
+        <input type="checkbox" id="class1" value="class">
+        <label for="class1">Cross Training</label>
+        <input type="checkbox" id="class2" value="class">
+        <label for="class2">Sprint</label>
+        <input type="checkbox" id="class3" value="class">
+        <label for="class3">Spin</label>
+        <input type="checkbox" id="class4" value="class">
+        <label for="class4">BodyPump</label>
+        <input type="checkbox" id="class5" value="class">
+        <label for="class5">BodyCombat</label>
+        <input type="checkbox" id="class6" value="class">
+        <label for="class6">Cross Training</label>
+        <input type="checkbox" id="class7" value="class">
+        <label for="class7">Step Interval</label>
+        <input type="checkbox" id="class8" value="class">
+        <label for="class8">Advanced Cross Traini</label>
+        <input type="checkbox" id="class9" value="class9">
+        <label for="class9">Advanced Cross</label>
+        <input type="checkbox" id="class10" value="class">
+        <label for="class10">MixxedFIT</label>
+        <input type="checkbox" id="class11" value="class">
+        <label for="class11">Zumba</label><br>
+
+        <input  type="radio"  id="Am" name="Am" value="Am">
+        <label  for="Am">Am</label><br>
+        <input  type="radio" id="Pm" name="Am" value="Pm">
+        <label  for="Pm">Pm</label>
+      </fieldset>
+      <input class="submit" type="submit" value="submit" />
+    </form>
+  </div>
+  <footer>
+     Fit for Fun Fitness Club &#169;	2821 West Angel Avenue, CA 85672 &nbsp; Call: <a href="tel:+18659999625">(865)999-9625</a>
+  </footer>
+  </body>
+</html>
